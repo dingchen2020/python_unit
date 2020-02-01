@@ -35,15 +35,14 @@ def 解密(密文,key):
     for i in range(0,len(密文)):
 
             c=getKeyChar(key, i)
-            #print(i)
-            #print(key)
+
             s1=字母表.find(c)
-            #print(s1)
+
             s2=字母表.find(密文[i])
-            #print(s2)
+
             s3=s2-s1
             s4=s3 % 26
-            #print(s4)
+
             明文+=字母表[s4]
 
     return 明文
