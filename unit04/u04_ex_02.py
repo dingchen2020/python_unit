@@ -1,0 +1,10 @@
+List=[7,9,'a','cat',False]
+List.append(3.14)
+List.append(7)
+List.insert(3,"dog")
+List.index('cat')
+List.count(7)
+List.remove(7)
+i=List.index("dog")
+List.pop(i)
+print(List)
